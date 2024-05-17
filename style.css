@@ -1,0 +1,32 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  flex-direction: column;
+}
+iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+.fallback {
+  display: none;
+}
+.download-btn{
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+  width: 100px;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
